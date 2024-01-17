@@ -1,0 +1,409 @@
+
+    
+header{
+    background-color: white;
+    height: 55px;
+    width: 100%;
+}
+
+.grid-container{  
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns:20% 60% 20%;
+    justify-items: center;
+    gap: 10px;
+     /* grid-template-areas: 
+    "scroll";*/
+
+}
+.item1, .item4{
+    width: 240px;
+    margin-left: 370px;
+}
+.item2,.item5,.item7, .item8{
+    width: 550px;
+}
+.item3,.item6, .item9{
+    width: 300px;
+    margin-right: 335px;
+}
+.item1{
+    height: 350px;
+}
+.item2{
+    height: 110px;
+}
+.item3{
+    height: 400px;
+}
+.item4{
+    height: 150px;
+    position: relative;
+    bottom: 45px;
+}
+.item5{
+    height: 610px;
+    position: relative;
+    bottom: 280px;
+}
+.item6{
+    height: 251px;
+    margin-top: 10px;
+}
+.item7{
+    height: 320px;
+    position: relative;
+    bottom: 270px;
+    grid-column: 2;  
+}
+.item8{
+    height: 30px;
+    position: relative;
+    bottom: 1240px;
+    grid-column: 2;  
+}
+
+.item9{
+    height: 150px;
+    position: relative;
+    bottom: 670px;
+    grid-column: 3; 
+}
+.item10{
+        height: 9%;
+        position: fixed;
+        left: 82.5%;
+        top: 93.5%;
+        width: 255px;
+        
+
+}
+        /*start of Header Styling*/
+
+        .log{
+        max-height: 45px;
+        max-width: 600px;
+        margin-left: 90px;
+        display: flex;
+        align-items: center;
+        }
+        .searched{
+            display: flex;
+            align-items: center;
+            background-color: rgb(237, 245, 251);
+            border-radius: 5px;
+            width: 285px;
+            margin-left: 5px;
+        }
+
+        .he{
+        margin:0px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        max-height: 50px;
+        max-width: 100%;
+
+
+        }
+        .head{
+        display: flex;
+        padding: 2px;
+        height: 50px;
+        width: 710px;
+        font-size: 1rem;
+        font-weight: 300;
+        justify-content:center;
+        align-items: center;
+        margin: 0px 0px 0px 100px;
+        }
+
+
+        .head> a{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 200px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        gap: 5px;
+        }
+        .ha{
+            font-size: 13px;
+            color: gray;
+        }
+
+        .head>a>img{
+        height: 20px;
+        width: 20px;
+        }
+
+        /*start for Left side bar*/
+  .left{
+    display: grid;
+    grid-template-rows: 19% 30% 20% 17% 7%;
+             height: 100%;
+             width: 100%;
+             background-color: white;
+             border-radius: 10px;
+        }
+
+    .l1{
+        background: linear-gradient(90deg, rgba(47,45,74,1) 0%, rgba(158,67,156,1) 43%, rgba(36,114,199,1) 76%, rgba(6,161,193,1) 100%);
+ }
+
+ .l2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+    .l2> a img{
+        height: 70px;
+        width: 70px;
+        background: none;
+        position: relative;
+        bottom: 60px;
+        left: 30px;
+    }
+    .l2>p, a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    .ls3a,.ls4a{
+    padding: 12px 15px 12px;
+    display: grid;
+    gap: 2px;
+    grid-template-rows: 50% 50%;
+    text-decoration: none;
+    justify-content: left;
+    }
+
+    .ap{
+        font-size: 12px;
+        background-color: white;
+        }
+.l5>a{
+    padding: 14px ;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+        /* Bottom Left Side Bar*/
+        #btsidebar{
+            display:grid;
+            grid-template-rows: 70% 30%;
+            height: 100%;
+            width: 100%;
+            background-color: white;
+        }
+        .bls{
+            padding: 16px 0px 15px 15px;
+            align-items: center;
+            flex-direction: column;
+        }
+        .bl>a{
+        justify-content: left;
+            color: rgb(13, 125, 194);
+            font-size: 13px;
+            padding: 3px 0px;
+            text-decoration: none;
+        }
+        .b2{
+            display: flex;
+            border-top:1px solid lightgrey;
+            justify-content: center;
+        }
+        .bl2a{
+            margin: 11px;
+        }
+
+        /* top mid page 1*/
+        #top{
+            display: grid;
+            grid-template-rows: 57% 40%;
+        }
+        .m1{
+            display: flex;
+            align-items: center;
+        }
+        .m2{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .mew{
+            background-color: white;
+        }
+        .pageicon{
+            margin-right: 10px;
+            font-size: x-large;
+        }
+
+
+        /* Mid Page 1&2 Netflix & BBC*/
+
+    #secmidpage{
+        display: grid;
+        grid-template-rows: 15% 10% 60% 5% 10%;
+    }
+    .sec1{
+        display: flex;
+      }
+      .list{
+        background-color: white;
+      }
+    .list> li{
+        display: flex;
+        list-style: none;
+        position: relative;
+        top: 20px;
+        background-color: white;
+      }
+      .lista> a{
+        align-items: center;
+        text-align: left;
+        font-size: small;
+        color: grey;
+      }
+      .midpagetxt{
+        padding: 5px 10px;
+      }
+      .sec3{
+        display: flex;
+        justify-content: center;
+      }
+      .sec4{
+        display: flex;
+        align-items: center;
+      }
+   #reacts{
+        height: 16px; 
+        width: 16px;
+        background-color: skyblue;
+        padding: 2px;
+        border-radius: 7px;
+        margin: 15px 3px 15px 15px;
+      }
+      .sec5{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .sec5> a{
+        background-color: white;
+      }
+
+      /* Top rigt sidebar*/
+      #toprigtsidebar{
+        display: grid;
+        grid-template-rows: 10% 26%   26% 26% 11%; 
+      }
+
+      .rb1{
+        display: flex;
+        align-items: center;
+        padding: 15px;
+
+    }
+
+    .rb2, .rb3, .rb4{
+        display: grid;
+       grid-template-columns: 20% 80%;
+       align-items: center;
+       padding: 0px 10px;
+    }
+
+    .rb5>a{
+        padding: 10px 10px;
+        display: flex;
+        justify-content: left;
+    }
+    .rightbarlist{
+        background-color: white;
+        margin-top: 15px;
+    }
+    .glist{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: left;
+        background-color: white;
+        position: relative;
+        bottom: 10px;
+        font-size: smaller;
+    }
+
+
+      
+        /* Bottom rigt sidebar*/
+        #whoshiring{
+            height: 250px;
+            width:299px;
+            border-radius: 10px;
+        }
+
+             /* Last Bottom rigt sidebar*/
+             .infos{
+                gap: 10px;
+                
+             }
+             .lastbotlist{
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+                text-align: left;
+               gap: 18px;
+               line-height: 30px;
+               justify-content: center;
+             }
+             .lastlist{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+             }
+             .lastboinfo{
+               background-color: rgb(246, 240, 240);
+               color: grey;
+               font-size: 11px;
+             }
+             #linkedin{
+                height: 15px;
+                width: 15px;
+                position: relative;
+                top: 6px;
+                margin-right: 4px;
+    
+            }
+            .linkcopyright{
+                display: flex;
+               font-size: 12px;
+               justify-content: center;
+               line-height: 30px;
+               background-color: rgb(246, 240, 240);
+            }
+
+                /*Sort By*/
+                #sortby{
+                    height: 20px;
+                    width: 100px;
+                    border:none;
+                    background-color: rgb(246, 240, 240);
+                    position: relative;
+                    left: 60%;
+                    margin-left: 40px;
+                    font-size: 12px;
+                    color: gray;
+                }
